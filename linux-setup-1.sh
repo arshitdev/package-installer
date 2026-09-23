@@ -1,4 +1,3 @@
-```bash
 #!/usr/bin/env bash
 
 set -e
@@ -48,4 +47,4 @@ esac
 
 echo "========== Installation Complete! =========="
 echo "Please restart your terminal once to ensure every effect takes place."
-```
+
