@@ -28,7 +28,7 @@ case "$DISTRO" in
 		sudo dnf group install -y development-tools
 		sudo dnf install -y \
 			cmake gcc-c++ gdb tmux zsh speedtest-cli \
-			python3 python3-pip openjdk-17-openjdk nodejs docker \
+			python3 python3-pip temurin-17-jdk nodejs docker \
 			htop net-tools zip unzip openssh-clients
 		;;
 	arch)
