@@ -24,7 +24,7 @@ case "$DISTRO" in
 		;;
 	fedora)
 		echo "Detected Fedora. Installing the packages..."
-		sudo dnf check-udate || true
+		sudo dnf check-update || true
 		sudo dnf groupinstall -y "Development Tools"
 		sudo dnf install -y \
 			cmake gcc-c++ gdb tmux zsh speedtest-cli \
