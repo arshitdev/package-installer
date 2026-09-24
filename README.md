@@ -26,7 +26,13 @@ Visual Studio Code is skipped when the `code` command is already available. On A
 
 ## Usage
 
-Clone the repository and run the script:
+Run the installer directly with `curl`:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/arshitdev/package-installer/main/setup.sh | bash
+```
+
+Or clone the repository and run the script locally:
 
 ```bash
 git clone https://github.com/arshitdev/package-installer.git
